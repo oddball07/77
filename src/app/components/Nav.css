@@ -43,6 +43,15 @@
 }
 
 .logo{
-    padding: 0 5rem;
+    padding-left: 2rem;
+
+        .three-container{
+            width: 100%;
+            height: 100%;
+
+            canvas{
+                scale: 1.5;
+            }
+        }
 }
 

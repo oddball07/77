@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Logo from "./sidebar";
+import { PrismicPreview } from "@prismicio/next";
+import { repositoryName } from "@/prismicio";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +31,8 @@ export default function RootLayout({
         <Logo className="logo-container original" />
         <>{children}</>
         <Logo className="logo-container mirrored" />
+
+        <PrismicPreview repositoryName={repositoryName} />
       </body>
     </html>
   );

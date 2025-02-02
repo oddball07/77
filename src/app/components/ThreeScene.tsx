@@ -20,8 +20,8 @@ const ThreeScene = () => {
       rendererRef.current = null;
     }
 
-    const canvasWidth = 500;
-    const canvasHeight = 400;
+    const canvasWidth = containerRef.current.clientWidth;
+    const canvasHeight = containerRef.current.clientHeight;
 
     // ✅ Scene Setup
     const scene = new THREE.Scene();
@@ -95,7 +95,7 @@ const ThreeScene = () => {
     };
   }, []);
 
-  return <div ref={containerRef} />;
+  return <div ref={containerRef} className="three-container" />;
 };
 
 export default ThreeScene;
