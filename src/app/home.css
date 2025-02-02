@@ -1,0 +1,36 @@
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+.slider .svg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+}
+.mirrored {
+    transform: scaleX(-1);
+}
+@media screen and (max-width: 480px) {
+    .slider{
+        width: 75px;
+    }    
+}
+
+
+.homepage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    position: relative;
+
+    .details{
+        background: black;
+    }
+}

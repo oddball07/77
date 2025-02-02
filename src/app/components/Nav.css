@@ -1,0 +1,48 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+
+
+.links{
+    display: flex;
+    align-items: center;
+    padding: 0 5rem;
+
+
+    ul{
+        font-size: 2.25rem;
+        font-weight: bold;
+        list-style: none;
+        width: 100%;
+    }
+}
+
+.links ul li{
+    width: 100%;
+}
+
+.list-link{
+    display: flex;
+    align-items: center;
+    overflow: clip;
+
+    .circle{
+        width: 5px;
+        height: 5px;
+        background-color: black;
+    }
+
+    p{
+        z-index: 1;
+    }
+}
+
+.logo{
+    padding: 0 5rem;
+}
+
