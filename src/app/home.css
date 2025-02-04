@@ -1,3 +1,8 @@
+.homepage{
+    overflow: hidden;
+}
+
+
 .logo-container {
     display: flex;
     justify-content: space-between;
@@ -32,5 +37,6 @@
 
     .details{
         background: black;
+        height: 100vh;
     }
 }
