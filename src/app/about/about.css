@@ -1,0 +1,22 @@
+.about-us{
+    color: white;
+    padding: 5px 7px;
+
+
+    h2{
+        font-size: 48px;
+        font-weight: 500;
+        text-align: right;
+    }
+    
+    
+    .content{
+        font-size: 24px;
+        margin: 2rem 1rem;
+        font-weight: lighter;
+        block-size: auto;
+        
+    }
+}
+
+

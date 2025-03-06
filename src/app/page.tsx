@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import Loading from "./loading";
 import "./home.css";
-import Nav from "./components/Nav";
+import Image from "next/image";
+import homePageImage from "./assets/home-page-photo.png";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -19,10 +20,11 @@ export default function Home() {
     <Loading />
   ) : (
     <>
-      <div className="homepage">
-        <Nav />
-        <div className="details"></div>
-      </div>
+      <Image
+        src={homePageImage}
+        style={{ width: "100%", height: "100%" }}
+        alt="spider image"
+      ></Image>
     </>
   );
 }
