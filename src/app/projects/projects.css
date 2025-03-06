@@ -1,0 +1,50 @@
+.projects{
+    color: white;
+    padding: 5px 7px;
+
+
+    .content{
+        font-size: 24px;
+        font-weight: lighter;
+
+        block-size: auto;
+
+         p{
+            margin: 2rem 1rem;
+        }
+    }
+    
+
+    .summary{
+        font-weight: 500;
+        font-size: 48px;
+        text-align: right;
+        margin-bottom: 10px;
+        list-style: none;
+        cursor: pointer;
+        position: relative;
+
+
+    }
+
+    .summary a{
+        color: #a40b0b;
+        font-size: 16px;
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    
+
+   
+
+
+
+    .line{
+        display: block;
+        height: 3px;
+        background-color: white;
+    }
+}
